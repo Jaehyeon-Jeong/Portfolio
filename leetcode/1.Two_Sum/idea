@@ -1,0 +1,7 @@
+Idea
+-Step 1 : Target - nums[i]  = New_target
+-Step 2 : check New_target is in the list from i+1, len(nums)
+-Step 2-1 If yes -> return index of i, new_target's index
+-Step 2-2 If not -> back to step 1 and check next element of list
+
+for loop - O(n) 
