@@ -1,0 +1,6 @@
+Idea
+|nums[i] - nums[j]| = k 
+-> nums[i] - nums[j]= k
+-> nums[i] - nums[j]= -k
+-> new_target1 = nums[i] - k 
+-> new_target2 = k + nums[i]
