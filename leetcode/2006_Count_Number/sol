@@ -1,0 +1,15 @@
+class Solution(object):
+    def countKDifference(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        count = 0
+        for i in range(len(nums)):
+            new_target1 = nums[i] - k
+            new_target2 = nums[i] + k
+            
+            count += nums[i+1:].count((new_target1))
+            count += nums[i+1:].count((new_target2))
+        return count
