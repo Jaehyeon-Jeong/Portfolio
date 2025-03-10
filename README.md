@@ -1,2 +1,2 @@
-# Python(Python, Pandas, Numpy) SQL Tableau
+# Python Pandas Numpy SQL Tableau
 Hi I'm Jaehyeon Jeong study at MIPT currently.
