@@ -1,0 +1,5 @@
+append stack when we counter left side brackets
+when we faced right side bracket check it's matching with pair
+
+from the beginning i thought order doesn't matter so took it more time for thinking ex "{(([[))]]}"
+dictionary is not just .keys .values dictionary["{"] = } showing pair
