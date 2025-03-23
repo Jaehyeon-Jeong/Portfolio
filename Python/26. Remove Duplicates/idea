@@ -13,4 +13,4 @@ class Solution(object):
         expectedNums.sort()
         return len(expectedNums)
 
-in leetcode wants to array inside of original list so need to change 
+in leetcode wants to do it in-place so need to change
