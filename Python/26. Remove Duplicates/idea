@@ -1,0 +1,16 @@
+my initial idea
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        expectedNums = []
+
+        for i in range(0, len(nums)):
+            if not expectedNums or nums[i] != expectedNums[-1]:
+                expectedNums.append(nums[i])
+        expectedNums.sort()
+        return len(expectedNums)
+
+in leetcode wants to array inside of original list so need to change 
