@@ -1,0 +1,2 @@
+1. check needle[0] == haystack[?] so find the all the index
+2. and from there check the length of needle 
