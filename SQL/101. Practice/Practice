@@ -6,9 +6,34 @@
 SELECT name, unit_price, unit_price * 1.1 AS new_price
 FROM products
 
-
 -- Get the orders placed this year
-
 SELECT *
 FROM orders
 WHERE order_date >= '2019-01-01'
+
+-- From the order_items table, get the items
+-- for order #6, the total price is greater than 30
+SELECT *
+FROM order_items
+WHERE order_id = 6 AND (quantity * unit_price > 30)
+
+-- Return products with quantity in stock equal to 49,38,72
+SELECT * 
+FROM products
+WHERE quantity_in_stock IN (49, 38, 72)
+
+-- Return customers born between 01/01/1990 and 01/01/2000
+SELECT * 
+FROM customers
+WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
+
+--Get the customers whose addresses contain TRAIL or AVENUE
+SELECT *
+FROM customers
+WHERE address LIKE '%trail%'
+        OR address LIKE '%AVENUE%'
+
+--Get phone numbers end with 9 
+SELECT *
+FROM customers
+WHERE phone LIKE '%9'
