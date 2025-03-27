@@ -1,0 +1,32 @@
+easy but i want write code little more neatly
+and anoher idea is just change last element 
+ex) digits[-1] < 9 => int(digits[-1]) + 1
+    and is when digits[-1] = 9 then need to check digit[-2] .... 
+is this better .. ?
+
+
+From GPT-o1 (Improvement of my code)
+class Solution(object):
+    def plusOne(self, digits):
+        # Convert digits to string, then to int, add 1
+        num = int("".join(map(str, digits))) + 1
+        
+        # Convert the result back to a list of integers
+        return [int(char) for char in str(num)]
+
+(Another idea of changing)
+class Solution(object):
+    def plusOne(self, digits):
+        carry = 1  # because we want to add 1
+        for i in range(len(digits) - 1, -1, -1):
+            new_val = digits[i] + carry
+            if new_val == 10:
+                digits[i] = 0
+                carry = 1
+            else:
+                digits[i] = new_val
+                carry = 0
+                break
+        if carry == 1:
+            digits.insert(0, 1)
+        return digits
