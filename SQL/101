@@ -1,0 +1,14 @@
+If there are serveral schemas just simply click the schema or keyword USE
+Ex) my exercise database schemas 
+-sql_hr
+-sql_inventory
+-sql_invoicing
+-sql_store
+
+I want to use sql_store so 
+ex)
+USE sql_store;
+
+SELECT * -- all the columns of the 'customers' table(from)
+FROM customers -- table that want to use, multiple table is also possible ex) FROM customers, products
+WHERE -- condition ex) find some data satisfed in specific condition
