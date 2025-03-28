@@ -37,3 +37,10 @@ WHERE address LIKE '%trail%'
 SELECT *
 FROM customers
 WHERE phone LIKE '%9'
+
+-- REGEXP similar as LIKE 
+1. ^ beginning
+2. $ end
+3. | logical or
+4. [abcd] matching with one of those
+5. [a-f] range
