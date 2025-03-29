@@ -44,3 +44,33 @@ WHERE phone LIKE '%9'
 3. | logical or
 4. [abcd] matching with one of those
 5. [a-f] range
+
+-- Get the customers whose
+-- first name are Elka or AMBUR
+SELECT *
+FROM customers
+WHERE first_name REGEXP 'elka|ambur'
+-- last names end with EY or ON
+WHERE last_name REGEXP 'ey$|on$'
+--last name start with MY or contains SE
+WHERE last_name REGEXP '^my|se'
+--last name contain B followed by R or U
+WHERE last_name REGEXP 'b[r|u]
+
+
+--Get the orders that are not shipped
+SELECT *
+FROM orders
+WHERE shipped_date IS NULL
+
+- Get the order_items that only order_id =2 and sorted by total price
+SELECT order_id, product_id, quantity, unit_price
+FROM order_items
+WHERE order_id = 2 
+ORDER BY 3*4 
+
+-- Get the top three loyal customers(loyal = having bigger points)
+SELECT *
+FROM customers
+ORDER BY points DESC
+LIMIT 3
