@@ -1,0 +1,31 @@
+class Solution(object):
+    def addBinary(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
+        def todec(str1):
+            dec = 0
+            for char in str1:
+                dec = dec * 2 + (char == "1")
+            return dec
+        
+        def tobi(int1):
+            if int1 == 0:
+                return "0"
+            
+            bi = ""
+            while int1 > 0:
+                bi += str(int1 % 2)
+                int1 //= 2
+            return bi[::-1]
+
+        res_a = todec(a)
+        res_b = todec(b)
+
+        ans_dec = res_a + res_b
+        ans_bi = tobi(ans_dec)
+        return ans_bi
+        
+        
