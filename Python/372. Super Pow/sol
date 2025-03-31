@@ -1,0 +1,12 @@
+class Solution(object):
+    def superPow(self, a, b):
+        """
+        :type a: int
+        :type b: List[int]
+        :rtype: int
+        """
+        str_b = ",".join(map(str, b))
+        int_b = int(str_b.replace(",",""))
+        return pow(a, int_b, 1337)
+
+        
