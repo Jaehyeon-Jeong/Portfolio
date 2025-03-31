@@ -1,0 +1,2 @@
+from the beginning i got a hint that "Try exploring all integers. (Credits: @annujoshi)"
+so looking for loop but max 2** 31 - 1 so it's too big, did binary search
