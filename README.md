@@ -1,6 +1,6 @@
 # 📊 Jaehyeon Jeong's Data Portfolio
 
-Welcome! I'm a 3rd-year Computer Science student passionate about data analytics and crypto currency with data. This portfolio highlights my hands-on projects using Python, SQL, Tableau, and more, as I prepare for a Data Analyst internship.
+Welcome! I'm a 3rd-year Computer Science student passionate about data analytics and crypto currency with data. This portfolio highlights practicing Python, SQL, Tableau, and more, as I prepare for a Data Analyst internship.
 
 ---
 
