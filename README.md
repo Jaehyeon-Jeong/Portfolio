@@ -48,7 +48,7 @@ Here are a few standout pieces from this portfolio:
 ## 📬 Contact
 
 - 📧 Email: dzhong.d@phystech.edu
-- 🌐 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/jaehyeon-jeong-09a81a193)
+- 🌐 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/jaehyeon-jeong-09a81a193)
 
 ---
 
