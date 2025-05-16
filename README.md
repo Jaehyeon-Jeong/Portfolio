@@ -32,7 +32,7 @@ Each folder contains a mini-project demonstrating my skills in the respective to
 Here are a few standout pieces from this portfolio:
 
 ### 📈 Pump&Dump dector for cryptocurrency
-- **Skills**: python, pandas, storytelling
+- **Skills**: python, pandas, matplotlib, API(ccxt, pycoingecko), Statistic
 - **Outcome**: Find potential pump&dump cryptocurrency
 
 ### 📊 Employee Shift Management App
