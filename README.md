@@ -5,7 +5,6 @@ Welcome! I'm a 3rd-year Computer Science student passionate about data analytics
 ---
 
 ## 🧠 About Me
-
 - 🎓 3rd-year CS student at MIPT
 - 📈 Interested in data analysis, visualization, cryptocurrency and real-world impact through data
 - 💡 Currently learning: Predictive analytics, A/B testing, and dashboard design
